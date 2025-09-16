@@ -1,0 +1,73 @@
+.s2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding-top: 0%;
+  padding-left: 80px;
+  padding-right: 150px;
+  padding-bottom: 5px;
+}
+
+.s2-content {
+  flex: 1;
+}
+
+.s2-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.s2-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.s2-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.s2-buttons .btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.s2-buttons .about {
+  background: #2c2f74;
+  color: #fff;
+}
+
+.s2-buttons .about:hover {
+  background: #1d1f50;
+}
+
+.s2-buttons .contact {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.s2-buttons .contact:hover {
+  background: #e0e0e0;
+}
+
+.s2-images {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  padding-left: 10%;
+}
+
+.s2-images img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+}

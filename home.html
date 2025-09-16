@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/head.css" />
+    <link rel="stylesheet" href="css/s1.css" />
+    <link rel="stylesheet" href="css/s2.css" />
+    <link rel="stylesheet" href="css/product caro.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <img src="reso/logo.png" alt="Logo" />
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Product</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#" class="enquiry-btn">Product Enquiry</a>
+      </nav>
+    </header>
+    <!-- Header END -->
+
+    <!-- section S1 -->
+    <section class="s1">
+      <div class="s1-text">
+        <h1>Choose Our Top Pick Products</h1>
+        <p>
+          Effortless cleaning solutions for a sparkling home. Powerful formulas
+          that cut through <br />
+          grime without harsh chemicals.
+        </p>
+        <a href="#" class="btn">Products</a>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="icon-text">
+              <img src="reso/imgs1.png" alt="Total Product Icon" />
+              <h2>30+</h2>
+            </div>
+            <p>Total Product</p>
+          </div>
+          <div class="stat">
+            <div class="icon-text">
+              <img src="reso/imgs2.png" alt="Happy Customers Icon" />
+              <h2>3000+</h2>
+            </div>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="s1-img">
+        <div></div>
+        <img src="reso/home2.png" alt="Cleaning Image" />
+      </div>
+    </section>
+
+    <!-- Product Carousel -->
+    <section class="carousel-container">
+      <div class="carousel-row">
+        <button class="arrow left" onclick="moveCarousel(-1)">
+          <img src="reso/leftbtn.png" alt="" />
+        </button>
+
+        <div class="carousel-wrapper">
+          <div class="carousel" id="carousel">
+            <div class="card">
+              <img src="reso/com/1.png" alt="Product 1" />
+              <p>Air Freshners</p>
+            </div>
+            <div class="card">
+              <img src="reso/com/2.png" alt="Product 2" />
+              <p>Carwash Liquid</p>
+            </div>
+            <div class="card">
+              <img src="reso/com/3.png" alt="Product 3" />
+              <p>Floor Cleaner</p>
+            </div>
+            <div class="card">
+              <img src="reso/com/4.png" alt="Product 4" />
+              <p>Hand Wash</p>
+            </div>
+            <div class="card">
+              <img src="reso/com/5.png" alt="Product 5" />
+              <p>Kitchen Cleaner</p>
+            </div>
+            <div class="card">
+              <img src="reso/com/6.png" alt="Product 6" />
+              <p>Dress Cleaner</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="arrow right" onclick="moveCarousel(1)">
+          <img src="reso/rightbtn.png" alt="" />
+        </button>
+      </div>
+    </section>
+    <!-- Product Carousel END  -->
+    <!-- about and contact   -->
+    <!-- section S2 -->
+    <section class="s2">
+      <div class="s2-content">
+        <h2>Embrace a Healthier Home:<br />The Power of Natural Cleaning</h2>
+        <p>
+          In today‘s world, where environmental awareness is paramount,
+          switching to natural cleaning products offers a wealth of benefits for
+          both your home and the planet. Unlike conventional cleaners laden with
+          harsh chemicals, natural alternatives utilize plant-derived
+          ingredients and essential oils to effectively tackle dirt and grime
+          without compromising your family’s health or the environment. By
+          making the switch, you can create a safer, healthier living space
+          while contributing to a more sustainable future.
+        </p>
+        <div class="s2-buttons">
+          <button class="btn about">About Us</button>
+          <button class="btn contact">Contact Us</button>
+        </div>
+      </div>
+
+      <div class="s2-images">
+        <img src="reso/clean1.png" alt="Washing hands with natural soap" />
+        <img src="reso/clean2.png" alt="Woman cleaning floor naturally" />
+      </div>
+    </section>
+    <!-- section S2  END-->
+    <!-- about and contact END  -->
+  </body>
+  <script src="js/caros.js"></script>
+</html>
