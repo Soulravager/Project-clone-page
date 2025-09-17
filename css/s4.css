@@ -1,0 +1,56 @@
+/* Section S4 */
+.s4 {
+  padding: 80px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.s4 h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 70px;
+  color: #000;
+}
+
+.s4-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  max-width: 1500px; /* wider section so image + text breathe */
+  margin: 0 auto;
+}
+
+.s4-left,
+.s4-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+}
+
+.s4-left {
+  text-align: right;
+}
+
+.s4-right {
+  text-align: left;
+}
+
+.s4-image {
+  flex: 0 0 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s4-image img {
+  width: 677px;
+  height: 697px;
+  object-fit: contain;
+  display: block;
+}

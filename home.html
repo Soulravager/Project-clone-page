@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="css/s1.css" />
     <link rel="stylesheet" href="css/s2.css" />
     <link rel="stylesheet" href="css/product caro.css" />
+    <link rel="stylesheet" href="css/featured caro.css" />
+    <link rel="stylesheet" href="css/s4.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+
+    <link rel="stylesheet" href="https://use.typekit.net/xxxxxxx.css" />
   </head>
   <body>
     <!-- Header -->
@@ -74,7 +79,7 @@
           <div class="carousel" id="carousel">
             <div class="card">
               <img src="reso/com/1.png" alt="Product 1" />
-              <p>Air Freshners</p>
+              <p>Air Freshers</p>
             </div>
             <div class="card">
               <img src="reso/com/2.png" alt="Product 2" />
@@ -111,12 +116,12 @@
       <div class="s2-content">
         <h2>Embrace a Healthier Home:<br />The Power of Natural Cleaning</h2>
         <p>
-          In today‘s world, where environmental awareness is paramount,
+          In today's world, where environmental awareness is paramount,
           switching to natural cleaning products offers a wealth of benefits for
           both your home and the planet. Unlike conventional cleaners laden with
           harsh chemicals, natural alternatives utilize plant-derived
           ingredients and essential oils to effectively tackle dirt and grime
-          without compromising your family’s health or the environment. By
+          without compromising your family's health or the environment. By
           making the switch, you can create a safer, healthier living space
           while contributing to a more sustainable future.
         </p>
@@ -148,7 +153,132 @@
 
     <!-- section s3 -->
     <!-- <section class="s3"><h1>Featured Products</h1></section> -->
+    <!-- Section s3 Featured Products -->
+    <section class="s3">
+      <div class="s3-header">
+        <h2>Featured Products</h2>
+        <a href="#" class="all-products-btn">All Products</a>
+      </div>
+
+      <div class="s3-row">
+        <button class="arrow left" onclick="moveCarousel(-1)">
+          <img class="arrow-image" src="reso/leftbtn.png" alt="" />
+        </button>
+
+        <div class="s3-carousel-wrapper">
+          <div class="s3-carousel" id="carousel">
+            <div class="s3-card">
+              <div class="s3-card-img">
+                <img src="reso/product/p1.png" alt="Product 1" />
+              </div>
+              <h3>Amtoi Air Freshner - Scarlet</h3>
+              <p>Air Freshner</p>
+            </div>
+
+            <div class="s3-card">
+              <div class="s3-card-img">
+                <img src="reso/product/p2.png" alt="Product 2" />
+              </div>
+              <h3>Amtoi Car Wash Liquid - 5L</h3>
+              <p>Car Wash Liquid</p>
+            </div>
+
+            <div class="s3-card">
+              <div class="s3-card-img">
+                <img src="reso/product/p3.png" alt="Product 3" />
+              </div>
+              <h3>Amtoi Floor Cleaner - Scarlet</h3>
+              <p>Floor Cleaner</p>
+            </div>
+
+            <div class="s3-card">
+              <div class="s3-card-img">
+                <img src="reso/product/p4.png" alt="Product 4" />
+              </div>
+              <h3>Amtoi Air Freshner - Chaand</h3>
+              <p>Air Freshner</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="arrow right" onclick="moveCarousel(1)">
+          <img class="arrow-image" src="reso/rightbtn.png" alt="" />
+        </button>
+      </div>
+    </section>
+
     <!-- section s3 -->
+
+    <!-- section 4 -->
+    <section class="s4">
+      <h2>Our Specialties</h2>
+      <div class="s4-content">
+        <!-- Left side text -->
+        <div class="s4-left">
+          <p>Multi-Surface Use</p>
+          <p>Safety and Gentleness</p>
+          <p>Natural Cleaning Power</p>
+          <p>Innovative and Efficient Solutions</p>
+        </div>
+
+        <!-- Center image -->
+        <div class="s4-image">
+          <img src="reso/special.png" alt="Special cleaning illustration" />
+        </div>
+
+        <!-- Right side text -->
+        <div class="s4-right">
+          <p>Effectiveness</p>
+          <p>Convenience and Efficiency</p>
+          <p>Advanced Cleaning Technology</p>
+          <p>Versatile Cleaning for Your Entire Home</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 4 END-->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo-section">
+          <img src="reso/logo.png" alt="Amtol Logo" class="footer-logo" />
+          <p>Effortless cleaning solutions for a sparkling home.</p>
+          <p>
+            Powerful formulas that cut through grime without harsh chemicals.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-links-container">
+          <div class="footer-links">
+            <h4>Home</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Privacy Term</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright © 2024. All rights reserved.</p>
+      </div>
+      <a href="#" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+    </footer>
+    <!-- Footer END-->
   </body>
   <script src="js/caros.js"></script>
 </html>
