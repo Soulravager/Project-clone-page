@@ -1,0 +1,102 @@
+/* Section s5 */
+.s5 {
+  margin: 80px 80px;
+  padding: 0 20px;
+  width: 90%;
+  background: #fff;
+}
+
+.s5-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.s5-header h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #20124d;
+}
+
+.all-products-btn {
+  background: #252b59;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.all-products-btn:hover {
+  background: #2a1b63;
+}
+
+/* Carousel row */
+.s5-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.s5-carousel-wrapper {
+  overflow: hidden;
+  flex: 1;
+}
+
+.s5-carousel {
+  display: flex;
+  gap: 30px;
+  transition: transform 0.4s ease;
+  padding: 20px 0;
+}
+
+/* Product card */
+.s5-card {
+  flex: 0 0 calc(33.33% - 30px);
+  aspect-ratio: 3 / 4;
+  background: #f2f2f2;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  height: 233px;
+  width: 349px;
+  border-radius: 10px;
+}
+
+.s5-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #000000;
+}
+
+.s5-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Arrows */
+.arrow {
+  background: #20124d;
+  color: #fff;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.3s;
+}
+
+.arrow:hover {
+  background: #2a1b63;
+}
