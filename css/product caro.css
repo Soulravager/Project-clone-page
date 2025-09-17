@@ -47,10 +47,11 @@
   background: #2c2f74;
   color: white;
   border: none;
-  font-size: 32px;
-  font-weight: 800;
-  padding: 15px;
-  border-radius: 60%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   cursor: pointer;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
