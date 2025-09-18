@@ -59,11 +59,10 @@
 
 /* Product card */
 .s3-card {
-  flex: 0 0 calc(25% - 30px); /* 4 cards visible */
-  aspect-ratio: 3 / 4; /* nice product look */
+  flex: 0 0 calc(25% - 30px);
+  border-radius: 17.19px;
   background: #fff;
-  border-radius: 16px;
-  padding: 20px;
+  padding: 20px 20px 20px 20px;
   text-align: center;
   flex-direction: column;
   justify-content: flex-start;
@@ -86,11 +85,13 @@
   font-weight: 600;
   margin-bottom: 6px;
   color: #20124d;
+  text-align: left;
 }
 
 .s3-card p {
   font-size: 0.9rem;
   color: #666;
+  text-align: left;
 }
 
 /* Arrows */
