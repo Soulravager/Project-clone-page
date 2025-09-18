@@ -1,9 +1,11 @@
 /* Section s3 */
 .s3 {
-  margin: 80px 80px;
-  padding: 0 20px;
-  width: 90%;
+  margin: 80px auto;
+  /* padding: 0 20px; */
+  width: 100%;
   background: #fff;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .s3-header {
@@ -34,11 +36,13 @@
 }
 
 /* Carousel row */
+
 .s3-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  position: relative;
+  /* gap: 15px; */
 }
 
 .s3-carousel-wrapper {
@@ -90,7 +94,7 @@
 }
 
 /* Arrows */
-.arrow {
+.s3arrow {
   background: #20124d;
   color: #fff;
   border: none;
@@ -106,4 +110,13 @@
 
 .arrow:hover {
   background: #2a1b63;
+}
+.s3arrow.left {
+  position: absolute;
+  left: -25px;
+}
+
+.s3arrow.right {
+  position: absolute;
+  right: -25px;
 }
