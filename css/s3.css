@@ -34,8 +34,6 @@
   background: #2a1b63;
 }
 
-/* Carousel row */
-
 .s3-row {
   display: flex;
   align-items: center;
@@ -56,7 +54,6 @@
   padding: 20px 0;
 }
 
-/* Product card */
 .s3-card {
   flex: 0 0 calc(25% - 30px);
   border-radius: 17.19px;
@@ -94,7 +91,6 @@
   text-align: left;
 }
 
-/* Arrows */
 .s3arrow {
   background: #1b2d5a;
   color: #fff;
