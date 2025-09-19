@@ -1,21 +1,21 @@
 .footer {
-  background-color: #f0f0f5; /* Main light gray background */
-  color: #333; /* Dark text color */
+  background-color: #f0f0f5;
+  color: #333;
   position: relative;
   padding: 50px 0 0 0;
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-between; /* Creates the gap between the two sections */
+  justify-content: space-between;
   align-items: flex-start;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  /* max-width: 1200px;
+    margin: 0 auto; */
+  padding: 0 80px;
 }
 
 .footer-logo-section {
-  flex: 1; /* Allows it to take up available space */
+  flex: 1;
   max-width: 1280px;
 }
 
@@ -48,7 +48,8 @@
 
 .footer-links-container {
   display: flex;
-  gap: 100px; /* Space between "Home" and "Links" columns */
+  gap: 100px;
+  padding-right: 20%;
 }
 
 .footer-links h4 {
@@ -85,8 +86,8 @@
   text-align: center;
   padding: 8px 0;
   margin-top: 50px;
-  height: 32px; /* Set a fixed height */
-  box-sizing: border-box; /* Includes padding in height */
+  height: 32px;
+  box-sizing: border-box;
 }
 
 .footer-bottom p {
