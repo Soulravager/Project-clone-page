@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 40px;
+  gap: 100px;
   padding-top: 0%;
   padding-left: 80px;
   padding-right: 80px;
@@ -19,7 +19,8 @@
 .s2-content p {
   font-size: 15px;
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  padding-right: 10%;
   color: #444;
 }
 .s2-buttons {

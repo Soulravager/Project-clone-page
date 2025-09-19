@@ -1,10 +1,13 @@
+/* Section s5 */
 .s5 {
-  margin: 80px 80px;
-  padding: 0 20px;
-  width: 90%;
+  margin: 80px auto;
+  width: 100%;
   background: #fff;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
+/* Header */
 .s5-header {
   display: flex;
   justify-content: space-between;
@@ -18,28 +21,15 @@
   color: #20124d;
 }
 
-.all-products-btn {
-  background: #252b59;
-  color: #fff;
-  padding: 12px 28px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 17px;
-}
-
-.all-products-btn:hover {
-  background: #2a1b63;
-}
-
 /* Carousel row */
 .s5-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  position: relative;
 }
 
+/* Keep arrows outside wrapper */
 .s5-carousel-wrapper {
   overflow: hidden;
   flex: 1;
@@ -50,39 +40,54 @@
   gap: 30px;
   transition: transform 0.4s ease;
   padding: 20px 0;
+  align-items: stretch; /* 🔑 makes all cards equal height */
 }
-
-/* Product card */
+/* Product card — 3 per row instead of 4 */
 .s5-card {
   flex: 0 0 calc(33.33% - 30px);
-  aspect-ratio: 3 / 4;
-  background: #f2f2f2;
-  border-radius: 16px;
+  border-radius: 17.19px;
+  background: #f1f1f1;
   padding: 20px;
-  text-align: center;
-  flex-direction: column;
-  justify-content: flex-start;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
   display: flex;
-  height: 233px;
-  width: 349px;
-  border-radius: 10px;
+  flex-direction: column;
+  justify-content: top; /* spread top & bottom */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.08);
+  min-height: 233px; /* keeps cards tall enough */
+  min-width: 349px;
+  text-align: left; /* better for testimonials */
+}
+
+.s5-card img {
+  background: #f0f0f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+  max-height: 350px;
+  object-fit: contain;
 }
 
 .s5-card h3 {
   font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 6px;
-  color: #000000;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+  text-align: left;
 }
 
 .s5-card p {
-  font-size: 0.9rem;
-  color: #666;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -3%;
+  color: #555555;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-grow: 0.5;
 }
-
-/* Arrows */
-.arrow {
+/* Arrows (reuse s3 style) */
+.s5_arrow {
   background: #1b2d5a;
   color: #fff;
   border: none;
@@ -94,8 +99,20 @@
   justify-content: center;
   align-items: center;
   transition: background 0.3s;
+  box-shadow: 0 0 0 10px #fff;
 }
 
-.arrow:hover {
-  background: #1b2d5abd;
+.s5_arrow:hover {
+  background: #2a1b63;
+}
+
+.s5_arrow.left {
+  position: absolute;
+  right: 100%;
+  /* left: -45px; */
+}
+
+.s5_arrow.right {
+  position: absolute;
+  left: 98%;
 }
