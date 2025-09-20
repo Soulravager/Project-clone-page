@@ -65,7 +65,7 @@
 }
 
 .s5-card h3 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: #000;
   margin: 0;
@@ -75,6 +75,7 @@
 .s5-card p {
   font-size: 15px;
   line-height: 22px;
+  font-weight: 325;
   letter-spacing: -3%;
   color: #555555;
   margin-bottom: 20px;
