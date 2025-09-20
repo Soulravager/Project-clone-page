@@ -20,8 +20,8 @@
 }
 
 .footer-logo {
-  height: 80px;
-  width: 139px;
+  height: auto;
+  width: 15%;
   margin-bottom: 20px;
 }
 
@@ -29,6 +29,8 @@
   margin: 5px 0;
   font-size: 14px;
   color: #666;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .social-icons {
@@ -50,6 +52,7 @@
   display: flex;
   gap: 100px;
   padding-right: 20%;
+  padding-top: 3.5%;
 }
 
 .footer-links h4 {
@@ -93,11 +96,12 @@
 .footer-bottom p {
   margin: 0;
   font-size: 14px;
+  font-weight: 400;
 }
 
 .back-to-top {
   position: absolute;
-  bottom: 40px;
+  bottom: 16%;
   right: 40px;
   background-color: #1a233b;
   color: #fff;

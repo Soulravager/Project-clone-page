@@ -40,7 +40,7 @@
 }
 
 .s5-card {
-  flex: 0 0 calc(33.33% - 30px);
+  flex: 0 0 calc(33.33% - 20px);
   border-radius: 17.19px;
   background: #f1f1f1;
   padding: 20px;
@@ -51,6 +51,7 @@
   min-height: 233px;
   min-width: 349px;
   text-align: left;
+  /* margin-right: 30px; */
 }
 
 .s5-card img {
@@ -109,5 +110,6 @@
 
 .s5_arrow.right {
   position: absolute;
-  left: 98%;
+  /* left: 98%; */
+  left: 100%;
 }

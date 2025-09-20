@@ -1,6 +1,7 @@
 .s1 {
   display: flex;
   /* 234.5679931640625 */
+  /* align-items: center; */
   justify-content: space-between;
   padding-top: 0px;
   padding-right: 0px;
@@ -12,7 +13,7 @@
 .s1-text {
   flex: 1;
   max-width: 45%;
-  margin-top: 4%;
+  margin-top: 8%;
 }
 
 .s1-text h1 {
@@ -22,6 +23,7 @@
   line-height: 76px;
   margin-bottom: 40px;
   letter-spacing: -5%;
+  line-height: 76px;
 }
 
 .s1-text p {
@@ -54,13 +56,13 @@
 }
 
 .stat h2 {
-  font-size: 1.8rem;
+  font-size: 32px;
   color: #1b2d5a;
 }
 
 .stat p {
   color: #555;
-  font-size: 0.95rem;
+  font-size: 22px;
 }
 
 .s1-img {
