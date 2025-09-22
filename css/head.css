@@ -38,3 +38,39 @@ nav a.active {
   font-weight: 500;
   box-shadow: 0px 8px 21px 0px rgba(0, 116, 185, 0.36);
 }
+
+/* 375 x 667 se  */
+@media (max-width: 667px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px 20px;
+  }
+
+  header img {
+    width: 34%;
+    height: auto;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 12px;
+
+    font-size: 0.95rem;
+  }
+
+  nav a {
+    display: block;
+    width: 100%;
+  }
+
+  .enquiry-btn {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+}
