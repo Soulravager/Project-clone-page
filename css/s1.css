@@ -162,7 +162,7 @@
     max-width: 600px;
     height: auto;
     /* margin: 0 auto; */
-    margin: -110px 0 0 0;
+    margin: -90px 0 0 0;
   }
 
   .s1-img img {
@@ -173,7 +173,7 @@
 
   .stats {
     flex-direction: row;
-    gap: max(30px, 50%); /* Adjust gap for  spacing */
+    gap: max(30px, 50%); /* Adjust gap for  spacing old */
     align-items: center;
     margin-top: 20px;
     padding-top: 20px;
