@@ -39,13 +39,18 @@ nav a.active {
   box-shadow: 0px 8px 21px 0px rgba(0, 116, 185, 0.36);
 }
 
+.side-menu {
+  display: none;
+}
+
 /* 375 x 667 se  */
 @media (max-width: 667px) {
   header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-    padding: 15px 20px;
+    background: #ffffff;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
   }
 
   header img {
@@ -54,23 +59,48 @@ nav a.active {
   }
 
   nav {
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    gap: 12px;
+    background: #dadada;
+    position: absolute;
+    top: 100%;
+    left: 1%;
+    padding: 10px 10px;
+    z-index: 999;
+    border-radius: 8px;
+  }
 
-    font-size: 0.95rem;
+  nav.show {
+    display: flex;
   }
 
   nav a {
     display: block;
     width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    font-size: 16px;
   }
 
   .enquiry-btn {
-    width: 25%;
+    width: 100%;
     text-align: center;
     padding: 10px;
-    font-size: 0.95rem;
+    font-size: 15px;
+    background: #2c2f74;
+    color: #fff;
+    box-shadow: none;
+  }
+
+  .side-menu {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    background: #ffffff;
+    color: #2c2f74;
+    padding: 6px 10px;
   }
 }

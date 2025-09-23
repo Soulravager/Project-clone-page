@@ -22,6 +22,11 @@
     <!-- Header -->
     <header>
       <img src="reso/logo.png" alt="Logo" />
+
+      <button class="side-menu" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+      </button>
+
       <nav>
         <a href="#" class="active">Home</a>
         <a href="#">Product</a>
@@ -29,6 +34,11 @@
         <a href="#">Contact</a>
         <a href="#" class="enquiry-btn">Product Enquiry</a>
       </nav>
+      <script>
+        function toggleMenu() {
+          document.querySelector("nav").classList.toggle("show");
+        }
+      </script>
     </header>
     <!-- Header END -->
 
@@ -46,14 +56,22 @@
         <div class="stats">
           <div class="stat">
             <div class="icon-text">
-              <img src="reso/imgs1.png" alt="Total Product Icon" />
+              <img
+                class="stats-image"
+                src="reso/imgs1.png"
+                alt="Total Product Icon"
+              />
               <h2>30+</h2>
             </div>
             <p>Total Product</p>
           </div>
           <div class="stat">
             <div class="icon-text">
-              <img src="reso/imgs2.png" alt="Happy Customers Icon" />
+              <img
+                class="stats-image"
+                src="reso/imgs2.png"
+                alt="Happy Customers Icon"
+              />
               <h2>3000+</h2>
             </div>
             <p>Happy Customers</p>
@@ -135,7 +153,7 @@
     <!-- section s3 -->
 
     <!-- Section s3 Featured Products -->
-    <section class="s3">
+    <!-- <section class="s3">
       <div class="s3-header">
         <h2>Featured Products</h2>
         <a href="#" class="all-products-btn">All Products</a>
@@ -186,15 +204,14 @@
           <img class="arrow-image" src="reso/rightbtn.png" alt="" />
         </button>
       </div>
-    </section>
+    </section> -->
 
     <!-- section s3 -->
 
     <!-- section 4 -->
-    <section class="s4">
+    <!-- <section class="s4">
       <h2>Our Specialties</h2>
       <div class="s4-content">
-        <!-- Left side text -->
         <div class="s4-left">
           <p>Multi-Surface Use</p>
           <p>Safety and Gentleness</p>
@@ -202,12 +219,10 @@
           <p>Innovative and Efficient Solutions</p>
         </div>
 
-        <!-- Center image -->
         <div class="s4-image">
           <img src="reso/special.png" alt="Special cleaning illustration" />
         </div>
 
-        <!-- Right side text -->
         <div class="s4-right">
           <p>Effectiveness</p>
           <p>Convenience and Efficiency</p>
@@ -215,12 +230,12 @@
           <p>Versatile Cleaning for Your Entire Home</p>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- section 4 END-->
 
     <!-- section 5 car  -->
-    <section class="s5">
+    <!-- <section class="s5">
       <div class="s5-header">
         <h2>Testimonials</h2>
       </div>
@@ -267,7 +282,7 @@
           <img class="arrow-image" src="reso/rightbtn.png" alt="" />
         </button>
       </div>
-    </section>
+    </section> -->
     <!-- section 5 car END  -->
     <!-- Footer -->
     <footer class="footer">

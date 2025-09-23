@@ -143,24 +143,26 @@
   }
 
   .s1-text p {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
     padding-bottom: 10px;
   }
 
   .s1-text .btn {
-    display: inline-block;
+    /* display: inline-block; */
+    left: 100px;
     padding: 10px 20px;
-    font-size: 0.95rem;
+    font-size: 15px;
   }
 
   .s1-img {
-    flex: none;
-    width: 90%;
-    max-width: 400px;
+    flex: 1;
+    width: 100%;
+    max-width: 600px;
     height: auto;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin: -110px 0 0 0;
   }
 
   .s1-img img {
@@ -170,11 +172,15 @@
   }
 
   .stats {
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: max(30px, 50%); /* Adjust gap for  spacing */
     align-items: center;
     margin-top: 20px;
     padding-top: 20px;
+  }
+  .stats-image {
+    width: 60%;
+    height: auto;
   }
 
   .stat {
@@ -190,10 +196,10 @@
   }
 
   .icon-text h2 {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 
   .stat p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
