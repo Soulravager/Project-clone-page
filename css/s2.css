@@ -74,3 +74,49 @@
 .s2-images > div {
   flex-basis: 0;
 }
+
+@media (max-width: 667px) {
+  .s2 {
+    flex-direction: column; /* stack content vertically */
+    padding: 20px; /* reduce padding for small screens */
+    gap: 30px; /* smaller gap */
+  }
+
+  .s2-content {
+    width: 100%;
+    text-align: center; /* center text for better look */
+  }
+
+  .s2-content h2 {
+    font-size: 24px; /* smaller headline */
+  }
+
+  .s2-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    padding-right: 0; /* remove extra padding */
+    margin-bottom: 30px;
+  }
+
+  .s2-buttons {
+    justify-content: center; /* center buttons */
+    flex-wrap: wrap; /* allow wrapping if buttons are too wide */
+    gap: 10px;
+  }
+
+  .s2-images {
+    flex-direction: column; /* stack images vertically */
+    gap: 15px;
+    padding-left: 0;
+  }
+
+  .s2-images .image-1,
+  .s2-images .image-2 {
+    flex: unset; /* remove original flex ratio */
+    width: 100%; /* images take full width */
+  }
+
+  .s2-images img {
+    height: auto; /* maintain aspect ratio */
+  }
+}
