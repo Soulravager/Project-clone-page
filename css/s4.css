@@ -51,3 +51,59 @@
   height: auto;
   display: block;
 }
+
+@media (max-width: 667px) {
+  .s4 {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .s4 h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 70px;
+    color: #000;
+  }
+
+  .s4-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .s4-left,
+  .s4-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    font-size: 17px;
+    font-weight: 325;
+    color: #333;
+    line-height: 1.7;
+  }
+
+  .s4-left {
+    text-align: right;
+  }
+
+  .s4-right {
+    text-align: left;
+  }
+
+  .s4-image {
+    flex: 0 0 877px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s4-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
