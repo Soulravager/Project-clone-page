@@ -121,7 +121,8 @@
   color: #777;
 }
 
-@media (max-width: 667px) {
+/* @media (max-width: 667px) { */
+@media (max-width: 799px) {
   .s1 {
     flex-direction: column;
     align-items: center;
@@ -162,7 +163,7 @@
     max-width: 600px;
     height: auto;
     /* margin: 0 auto; */
-    margin: -90px 0 0 0;
+    margin: 0px 0 0 0;
   }
 
   .s1-img img {
@@ -173,7 +174,8 @@
 
   .stats {
     flex-direction: row;
-    gap: max(30px, 50%); /* Adjust gap for  spacing old */
+    gap: max(0px, 0%);
+    /* padding-left: 20%; */
     align-items: center;
     margin-top: 20px;
     padding-top: 20px;
@@ -185,6 +187,8 @@
 
   .stat {
     text-align: center;
+    flex: 1;
+    /* padding: 5%; */
   }
 
   .icon-text {
@@ -201,5 +205,31 @@
 
   .stat p {
     font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1300px) {
+  .s1 {
+    align-items: center;
+    margin-left: 0; /* remove left margin to prevent pushing */
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .s1-img {
+    flex: 1;
+    max-width: 100%;
+    min-height: 400px; /* ✅ minimum height so it doesn’t collapse */
+    position: static;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .s1-img img {
+    width: 100%; /* ✅ take full width of container */
+    height: 100%; /* ✅ respect container height */
+    min-height: 500px; /* ✅ enforce minimum height */
+    object-fit: cover; /* ✅ fills container, crops if needed */
+    display: block;
   }
 }
