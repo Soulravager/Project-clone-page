@@ -79,7 +79,7 @@
   margin-left: 10px;
 }
 
-@media (max-width: 667px) {
+@media (max-width: 600px) {
   .carousel {
     gap: 50px;
     padding: 10px 0;
@@ -92,18 +92,21 @@
   .card {
     flex: 0 0 90%;
     max-width: 90%;
-    max-height: 220px;
+    max-height: 320px;
+    min-width: 60%;
+    min-height: 200px;
     margin: 0 auto;
   }
 
   .card img {
-    height: 100px;
-    padding: 10px;
+    height: 50%;
+    padding: 0px;
+    margin: 0px;
   }
 
   .card p {
-    font-size: 18px;
-    bottom: 8%;
+    font-size: 1rem;
+    bottom: 10%;
   }
 
   .arrow {
@@ -117,6 +120,51 @@
     border: none;
     width: 30px;
     height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1300px) {
+  .carousel {
+    gap: 20px;
+    /* padding: 20px 0; */
+    justify-content: flex-start;
+    /* padding-left: 5%; */
+  }
+
+  .carousel-wrapper {
+    overflow: hidden;
+  }
+
+  .card {
+    flex: 1 1 250px;
+    min-width: 250px;
+    min-height: 250px;
+    max-height: 320px;
+    margin: 0 auto;
+  }
+
+  .card img {
+    height: 140px;
+    padding: 10px;
+    object-fit: contain;
+  }
+
+  .card p {
+    font-size: 18px;
+    bottom: 8%;
+  }
+
+  .arrow {
+    background: #1b2d5a;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     cursor: pointer;
     display: flex;

@@ -54,7 +54,7 @@ nav a.active {
   }
 
   header img {
-    width: 28%;
+    width: 20%; /* 28% old value */
     height: auto;
   }
 
@@ -112,7 +112,7 @@ nav a.active {
     /* justify-content: space-between; */
     gap: 10%;
     align-items: center;
-    padding: 0px 80px;
+    padding: 0px 40px;
     padding-top: 20px;
   }
 
@@ -139,7 +139,7 @@ nav a.active {
   }
 
   .enquiry-btn {
-    background: #742c2c;
+    background: #2c2f74;
     color: white;
     padding: 10px 20px;
     border-radius: 8px;

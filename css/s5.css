@@ -113,3 +113,67 @@
   /* left: 98%; */
   left: 100%;
 }
+
+@media (max-width: 799px) {
+  .s5 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 40px auto;
+  }
+
+  .s5-header h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .s5-carousel {
+    gap: 15px;
+    padding: 10px 0;
+    padding-left: 10px;
+  }
+
+  .s5-card {
+    flex: 0 0 100%;
+    padding: 30px;
+    min-width: unset;
+    min-height: auto;
+    text-align: center;
+  }
+
+  /* .s5-card img {
+    max-height: 250px;
+    padding: 15px;
+  } */
+
+  .s5-card h3 {
+    font-size: 0.9rem;
+  }
+
+  .s5-card p {
+    font-size: 0.8rem;
+    margin: 15px 5px;
+  }
+
+  .s5_arrow {
+    background: #1b2d5a;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s5_arrow.left {
+    left: -10px;
+    right: auto;
+  }
+
+  .s5_arrow.right {
+    right: -10px;
+    left: auto;
+  }
+}
