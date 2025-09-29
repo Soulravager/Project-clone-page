@@ -92,7 +92,7 @@
   .card {
     flex: 0 0 90%;
     max-width: 90%;
-    max-height: 320px;
+    max-height: 300px;
     min-width: 60%;
     min-height: 200px;
     margin: 0 auto;
@@ -101,7 +101,8 @@
   .card img {
     height: 50%;
     padding: 0px;
-    margin: 0px;
+    margin-top: 0px; /* push image closer to top */
+    margin-bottom: 30px; /* adjust spacing below */
   }
 
   .card p {
@@ -141,6 +142,14 @@
   }
 
   .card {
+    flex: 1 1 200px;
+    min-width: 220px;
+    min-height: 220px;
+    max-height: 320px;
+    margin: 0 auto;
+  }
+
+  .cardtemp {
     flex: 1 1 250px;
     min-width: 250px;
     min-height: 250px;
@@ -149,14 +158,14 @@
   }
 
   .card img {
-    height: 140px;
+    height: 60%;
     padding: 10px;
     object-fit: contain;
   }
 
   .card p {
     font-size: 18px;
-    bottom: 8%;
+    bottom: 6%;
   }
 
   .arrow {

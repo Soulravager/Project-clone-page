@@ -66,15 +66,28 @@
   display: flex;
 }
 
-.s3-card img {
+.s23-card img {
   background: #f0f0f0;
   border-radius: 12px;
   padding: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 100%;
   max-height: 350px;
   height: 100%;
   object-fit: contain;
+}
+.s3-card-img {
+  margin-bottom: 20px;
+}
+
+.s3-card img {
+  background: #f0f0f0;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+  margin: 0;
 }
 
 .s3-card h3 {
@@ -184,5 +197,35 @@
 
   .s3arrow.right {
     right: -10px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1300px) {
+  .s3 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .s3-carousel-wrapper {
+    overflow: hidden;
+  }
+
+  .s3-carousel {
+    gap: 30px;
+    padding: 20px 0;
+    transition: transform 0.4s ease;
+  }
+
+  .s3-card {
+    flex: 0 0 280px;
+    max-width: 280px;
+  }
+
+  .s3arrow.left {
+    left: -25px;
+  }
+
+  .s3arrow.right {
+    right: -29px;
   }
 }
